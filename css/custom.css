@@ -1,0 +1,26 @@
+.admin-bar .navbar-fixed-top {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 782px) {
+	.admin-bar .navbar-fixed-top {
+	margin-top: 45px;
+}
+}
+
+/*.current-menu-item {
+	background-color: black;
+}*/
+
+header {
+	margin-top: 6em;
+}
+
+body {
+	background-color: #eee;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
