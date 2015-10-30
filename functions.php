@@ -5,6 +5,7 @@ function theme_styles() {
 	wp_enqueue_style('bootsrap_css', get_template_directory_uri() . '/css/bootstrap.min.css');
 	wp_enqueue_style('main_css', get_template_directory_uri() . '/style.css');
 	wp_enqueue_style('custom_css', get_template_directory_uri() . '/css/custom.css');
+	wp_enqueue_style('googlefont_css', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,300,200');
 }
 add_action('wp_enqueue_scripts', 'theme_styles');
 
@@ -56,4 +57,4 @@ function create_widget ($name, $id, $description) {
 create_widget('Page Sidebar', 'blog', 'Display on the side of the pages with a sidebar' );
 
 
-
+add_theme_support( 'post-thumbnails' ); 

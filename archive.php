@@ -5,12 +5,18 @@
 
 
 <div class="container">
-		<div class="text-center">
+
+	<header>
+		<div class="page-header text-center">
 			<h1>The Solid Blog</h1>
 		</div>
+	</header>
 
 		<div class="row">
+
 		<div class="col-md-9">
+
+
 		<?php  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 			<article <?php post_class(); ?>>
