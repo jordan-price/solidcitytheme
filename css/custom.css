@@ -104,7 +104,8 @@ a:focus {
 }
 
 .solid-blog {
-    margin: 50px 0px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     color: dimgray; 
 }
@@ -140,12 +141,12 @@ body {
 
 }
 .navbar-nav>li>a {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }  
 a.navbar-brand {
-    padding-top: 25px;
-    height: 80px;
+    padding-top: 12px;
+    height: 20px;
 }  
 .navbar-default .navbar-nav>li>a {
     font-size: 1.2em;
