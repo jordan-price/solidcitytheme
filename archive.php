@@ -6,11 +6,9 @@
 
 <div class="container">
 
-	<header>
-		<div class="page-header text-center">
-			<h1>The Solid Blog</h1>
+		<div class="solid-blog text-center">
+			<h1><?php the_title();?></h1>
 		</div>
-	</header>
 
 		<div class="row">
 
@@ -21,7 +19,7 @@
 
 			<article <?php post_class(); ?>>
 				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<p>By <?php the_author(); ?> on <?php echo the_time('l, F jS, Y') ?> in <?php the_category (', ')?></p>
+				<p>By <?php the_author_posts_link(); ?> on <?php echo the_time('l, F jS, Y') ?> in <?php the_category (', ')?></p>
 				<hr>
 				<?php the_excerpt(); ?>
 				<a class=""href="<?php the_permalink(); ?>">Read More</a>
