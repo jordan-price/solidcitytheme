@@ -3,16 +3,16 @@
  <?php get_template_part('/inc/navigation'); ?>
 
 
-		<div class="home-jumbo">
+		<div class="">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-sm-6">
 						<h1 class="starter-template">Create Something New!</h1>
-						<p>Easy on-demand printing, fulfilmment & Shipping. Create custom apparel with out the risk and hassel.</p>
+						<h4>Easy on-demand printing, fulfilmment &amp; Shipping. Create custom apparel with out the risk and hassel.</h4>
 						<a class="btn btn-default"href="">Learn More</a>
 					</div>
-					<div class="col-lg-6">
-						<div class="signup-form">
+					<div class="col-sm-6">
+						<div class="">
 						<form>
 							<h3 class="form-header">Sign Up for Free!</h3>
 						 <div class="form-group">
@@ -35,9 +35,9 @@
 					</div>
 					</div>
 				</div>
+				<hr>
 			</div>
 		</div>
-
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
