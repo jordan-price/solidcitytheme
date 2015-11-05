@@ -5,7 +5,7 @@
 
 
 <div class="container">
-		<div class="text-center">
+		<div class="solid-blog text-center">
 			<h1>The Solid Blog</h1>
 		</div>
 
@@ -13,17 +13,27 @@
 		<div class="col-md-9">
 		<?php  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
+<?php
+$blog_photo = array(
+	'class' => "blog_photo",
+);
+?>
+
+
 			<article <?php post_class(); ?>>
+				<div class="blog_photo">
+				<a class="" href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large', $blog_photo); ?></a>
 				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<p>By <?php the_author(); ?> on <?php echo the_time('l, F jS, Y') ?> in <?php the_category (', ')?></p>
-				<hr>
+				<p>By <?php the_author_posts_link(); ?> on <?php echo the_time('l, F jS, Y') ?> in <?php the_category (', ')?></p>
 				<?php the_excerpt(); ?>
-				<a class=""href="<?php the_permalink(); ?>">Read More</a>
+				<a class="btn btn-default"href="<?php the_permalink(); ?>">Read More</a>
 			</article>
+
+			<hr>
 
 		<?php endwhile; else: ?>
 
-			<div class="page-header">
+			<div class="">
 				<h1>Oh no!</h1>
 			</div>
 			
