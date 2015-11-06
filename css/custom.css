@@ -95,7 +95,12 @@ a:hover,a:focus {
 a:focus {
     outline:thin dotted;
     outline:5px auto -webkit-focus-ring-color;
-    outline-offset:-2px
+    outline-offset:-2px;
+    color: white;
+}
+
+a:active {
+    color: lightgray;
 }
 
 .home-jumbo {
@@ -104,10 +109,11 @@ a:focus {
 }
 
 .solid-blog {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 50px;
     text-transform: uppercase;
-    color: dimgray; 
+    line-height: 50px;
+    color: #222; 
 }
 
 .blog-title {
@@ -137,9 +143,10 @@ label.screen-reader-text {
 @media (min-width: 768px){
 
 body {
-    padding-top: 79px;
+    padding-top: 61px;
 
 }
+
 .navbar-nav>li>a {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -153,4 +160,74 @@ a.navbar-brand {
 }
 }
 
+.get-started {
+    background: #38B3DD;
+    margin-top: 10px;
+    border-radius: 3px;
+}
 
+.header-menu li.get-started > a{
+  padding: 10px;
+  color: black;
+}
+
+.get-started:hover {
+    background: #48c3DD;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.header-menu li.get-started > a:hover{
+  padding: 10px;
+  color: black;
+}
+
+.blue {
+    background: whitesmoke;
+}
+
+.text-column>div {
+    padding-top: 40px;
+    padding-left: 50px;
+    width: 610px;
+
+}
+
+.home-form {
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: none;
+    box-shadow: 1px 1px 3px rgba(124, 124, 124, 0.38);
+}
+
+.home-header {
+    padding: 3% 10%;
+}
+
+.home-sub-header {
+    color: #777;
+}
+
+.marketing .col-sm-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.key-values {
+    color: #38B3DD;
+}
+
+.how-it-works {
+    background: white;
+}
+
+a.get-started-call.btn.btn-default {
+    background-color: #38B3DD;
+    font-size: 1.2em;
+    margin: 20px;
+    border-radius: 3px;
+    border: 1px solid #38B3DD;
+    padding: 10px 20px;
+}

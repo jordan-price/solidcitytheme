@@ -1,8 +1,8 @@
-<?php get_header();?>
+ <?php get_header(); 
 
- <?php get_template_part('/inc/navigation'); ?>
+  get_template_part('/inc/navigation');
 
-
+  ?>
 
 <div class="container">
 
@@ -22,9 +22,9 @@
 
 			<?php the_content(); ?>
 
-			<div class="text-center">
-					<div class="btn btn-default"><?php previous_post_link();?></div>
-					<div class="btn btn-default"><?php next_post_link();?></div>
+			<div>
+					<div><?php previous_post_link();?></div>
+					<div><?php next_post_link();?></div>
 			</div>
 			
 
