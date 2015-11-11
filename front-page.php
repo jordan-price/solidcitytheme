@@ -26,12 +26,13 @@
 		<div class="container">
   			<div class="row">
   				<div class="home-header col-md-6 col-sm-12 col-xs-12">
-  					<h2 class="text-center">Create Something New</h2>
-  					<h4 class="text-center home-sub-header">Easy on-demand printing, fulfilmment &amp; Shipping. Create custom apparel with out the risk and hassel.</h4>
+  					<h2 class="">Create Something New</h2>
+  					<h4 class="home-sub-header">Easy on-demand printing, fulfilmment &amp; Shipping. Create custom apparel with out the risk and hassel.</h4>
+  					<!-- <p><a class="btn btn-default" href="" role="button">Learn More</a></p> -->
   				</div>
   				<div class="col-md-6 col-sm-12 col-xs-12">
   					<form class="home-form">
-  					<h3 class="">Sign up</h3>
+  					<h3 class="">Get Started For Free!</h3>
   					<div class="form-group">
 					    <input type="text" class="form-control" id="fullname" placeholder="Full Name">
 					  </div>
@@ -46,14 +47,6 @@
   				</div>
 
   			</div>
-<!--   			<div class="row blue">
-  				<div class="upper-height col-md-5 col-sm-12 col-xs-12" style="background-color: #ffd7a3;">
-  					<img class="padding-left-10 "src="https://www.theprintful.com/static/images/site/volume_discounts/ilsutracija.svg">
-  				</div>
-  				<div class="text-column upper-eight col-md-7 col-sm-12 col-xs-12">	
-  			</div>
-  		</div> -->
-
 </div>
 
 
@@ -66,56 +59,50 @@
 			        <div class="col-sm-4">
 			          <img class="img-circle" src="http://solid.city/wp-content/themes/thesolidcity/img/no-in-03.png" alt="Generic placeholder image" width="140" height="140">
 			          <h2 class="key-values">No Inventory</h2>
-			          <p>No expensive printing machines, no storage</p>
+			          <h4>No expensive printing machines, no storage</h4>
 			        </div><!-- /.col-sm-4 -->
 			        <div class="col-sm-4">
 			          <img class="img-circle" src="http://solid.city/wp-content/themes/thesolidcity/img/no-min-02.png" alt="Generic placeholder image" width="140" height="140">
 			          <h2 class="key-values">No minimums</h2>
-			          <p>Only order what you need when you need it</p>
+			          <h4>Only order what you need when you need it</h4>
 			        </div><!-- /.col-sm-4 -->
 			        <div class="col-sm-4">
 			          <img class="img-circle" src="http://solid.city/wp-content/themes/thesolidcity/img/easy-04.png" alt="Generic placeholder image" width="140" height="140">
 			          <h2 class="key-values">Easy To Use</h2>
-			          <p>It's simple to create &amp; order your custom products</p>
+			          <h4>It's simple to create &amp; order your custom products</h4>
 			        </div><!-- /.col-sm-4 -->
 			      </div><!-- /.row -->
 
-			      <div class="col-xs-12">
+<!-- 			      <div class="col-xs-12">
 			        <div class="text-center">
 			        <p><a class="get-started-call btn btn-default" href="" role="button">Get Started</a></p>
-			      </div>
+			      </div> -->
 			  </div>
 			</div>
-</div>
+<!-- 
+			 <div class="row blue">
+  				<div class="upper-height col-md-5 col-sm-12 col-xs-12">
+  					<img class="padding-left-10 img-responsive"src="<?php bloginfo('template_directory'); ?>/img/Epson-Fabric-Print-04.png">
+  				</div>
+  				<div class="text-column col-md-7 col-sm-12 col-xs-12">
+  			</div>
+  		</div> -->
 
-
-
-<div class="container">
-
+			<div class="container">
 			    <div class="row">
 			    	<h1 class="text-center">Easy To Use Application</h1>
-			    	<h2>1. Create Custom Apparel</h2>
-			    	<h2>2. Sell To Anyone and Everyone</h2>
-			    	<h2>3. Only Order What you Need</h2>
 			    </div>
 
 				<hr>
 
 				<div class="row">
 			    	<h1 class="text-center">Already Used By</h1>
-			    	<ul>
-			    		<li>Vunder Sports</li>
-			    		<li>Bearded Bodybuilding</li>
-			    		<li>Soul Fitness</li>
-			    		<li>Netflix Customer Service</li>
-			    	</ul>
-
 			    	<h3 class="text-center">&amp; 2351 more Creators!</h3>
 			    </div>
 
 			    <hr>
 
-			    <div class="">
+<!-- 			    <div class="">
   					<form>
   					<h3 class="text-center">Sign up for Free</h3>
   					<div class="form-group">
@@ -129,7 +116,7 @@
 					  </div>
 					  <button type="submit" class="btn btn-default">Submit</button>
 					</form>
-  				</div>
+  				</div> -->
   		</div>
   		</div>
 
