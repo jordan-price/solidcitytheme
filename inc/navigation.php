@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php bloginfo('url')?>"><img class="logo"src="<?php bloginfo('template_directory'); ?>/img/solid-logo-web.png"></a>
+          <a class="navbar-brand" href="<?php bloginfo('url')?>"><img class="logo"src="<?php bloginfo('template_directory'); ?>/img/solidcity-logo.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 

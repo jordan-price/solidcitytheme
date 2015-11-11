@@ -88,12 +88,12 @@
   			</div>
   		</div> -->
 
-			<div class="container">
+<!-- 			<div class="container">
 			    <div class="row">
 			    	<h1 class="text-center">Easy To Use Application</h1>
 			    </div>
 
-				<hr>
+				<hr> -->
 
 				<div class="row">
 			    	<h1 class="text-center">Already Used By</h1>

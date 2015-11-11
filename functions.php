@@ -5,7 +5,9 @@ function theme_styles() {
 	wp_enqueue_style('bootsrap_css', get_template_directory_uri() . '/css/bootstrap.min.css');
 	wp_enqueue_style('main_css', get_template_directory_uri() . '/style.css');
 	wp_enqueue_style('custom_css', get_template_directory_uri() . '/css/custom.css');
-	wp_enqueue_style('googlefont_css', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,300,200');
+	wp_enqueue_style('woo_css', get_template_directory_uri() . '/css/woo.css');
+	wp_enqueue_style('source_sans_pro_font_css', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,300,200');
+	wp_enqueue_style('lato_font_css', 'https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900');
 }
 add_action('wp_enqueue_scripts', 'theme_styles');
 
@@ -58,3 +60,9 @@ create_widget('Page Sidebar', 'blog', 'Display on the side of the pages with a s
 
 
 add_theme_support( 'post-thumbnails' ); 
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
