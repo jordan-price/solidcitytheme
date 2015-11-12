@@ -1,27 +1,32 @@
-<?php get_header();?>
+ <?php get_header(); 
 
- <?php get_template_part('/inc/navigation'); ?>
+  get_template_part('/inc/navigation');
 
-
+  ?>
 
 <div class="container">
 
-		<header>
-			<div class="">
+	<?php  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+		<div class="blog-title">
 				<h1><?php the_title(); ?></h1>
+				<p>By <?php the_author_posts_link(); ?> on <?php echo the_time('l, F jS, Y') ?> in <?php the_category (', ')?></p>
 			</div>
-		</header>
 
 		<hr>
 
-		<?php  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+		
 
 		<div class="row">
 		<div class="col-md-9">
 
+
 			<?php the_content(); ?>
 
+			<div>
+					<div><?php previous_post_link();?></div>
+					<div><?php next_post_link();?></div>
+			</div>
+			
 
 		<?php endwhile; else: ?>
 
