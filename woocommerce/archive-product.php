@@ -13,17 +13,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-get_template_part('/inc/navigation');
 
-get_header( 'shop' ); ?>
 
+get_header( 'shop' ); 
+get_template_part('/inc/navigation-shop');
+?>
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 			<div>
 			<h1 class="solid-blog text-center"><?php woocommerce_page_title(); ?></h1>
 			</div>
 		<?php endif; ?>
-
-<div class="container">
 
 	<?php
 		/**

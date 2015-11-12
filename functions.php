@@ -61,6 +61,12 @@ create_widget('Page Sidebar', 'blog', 'Display on the side of the pages with a s
 
 add_theme_support( 'post-thumbnails' ); 
 
+// woocommerces fuctions
+
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+
 add_action( 'after_setup_theme', 'woocommerce_support' );
 
 function woocommerce_support() {

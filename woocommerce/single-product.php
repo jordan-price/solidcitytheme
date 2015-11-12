@@ -13,12 +13,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
+get_header( 'shop' ); 
+
 get_template_part('/inc/navigation');
-
-get_header( 'shop' ); ?>
-
-<br>
-<div class="container">
+?>
 
 	<?php
 		/**
@@ -44,7 +42,7 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_after_main_content' );
 	?>
-	
+
 </div>
 
 <?php get_footer( 'shop' ); ?>
