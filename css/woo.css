@@ -175,3 +175,9 @@ a.button.alt {
     background-color: #fff;
     font-weight: 400;
 }
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #FFF;
+    background-color: transparent;
+}
+
