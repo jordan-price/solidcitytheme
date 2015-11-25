@@ -110,14 +110,9 @@ select {
 }
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
-    float: left;
-    margin: 0 3.8% 2.992em 0;
-    padding: 0;
-    position: relative;
-    width: 22.05%;
     background: white;
-    padding: 10px;
     border-radius: 3px;
+
 }
 
 .woocommerce ul.products li.product h3 {
@@ -134,18 +129,7 @@ select {
     font-weight: 400;
     margin-bottom: .5em;
     font-size: .857em;
-}
-
-.woocommerce ul.products li.product a img {
-    opacity: none;
-    background-color: white;
-    -webkit-transition: opacity .5s, background-color .5s, -webkit-transform .5s;
-    transition: opacity .5s, background-color .5s, transform .5s;
-}
-
-.woocommerce ul.products li.product a img:hover {
-    opacity: 0.8;
-    background-color: lightblue;
+    text-align: center
 }
 
 a.button.alt {
@@ -174,4 +158,20 @@ a.button.alt {
     border-radius: 3px;
     border: 1px solid lightgray;
     padding: 10px;
+}
+
+.select2-container .select2-choice {
+    display: block;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    color: #444;
+    text-decoration: none;
+    border-radius: 3px;
+    background-clip: padding-box;
+    user-select: none;
+    background-color: #fff;
+    font-weight: 400;
 }
