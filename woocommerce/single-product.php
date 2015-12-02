@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); 
 
-get_template_part('/inc/navigation');
+get_template_part('/inc/navigation-shop');
 ?>
 
 	<?php

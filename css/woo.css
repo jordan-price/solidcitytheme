@@ -181,3 +181,78 @@ a.button.alt {
     background-color: transparent;
 }
 
+input#place_order {
+    font-size: 150%;
+}
+
+/* Cart Styles*/
+
+footer .right {
+    text-align: right;
+}
+
+footer a.btn {
+    font-size: .8rem;
+    margin-left: 5px;
+    border: 1px #384047 solid;
+    display: inline-block;
+    background: #384047;
+    font-size: 1.6em;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 2px;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+
+footer a.btn:hover {
+    color: lightblue;
+}
+
+footer a.btn.alt {
+    background-color: white;
+    border-color: #ccc;
+    color: #222;
+}
+
+footer a.btn.alt:hover {
+    background-color: white;
+    border-color: #ccc;
+    color: lightblue;
+}
+
+@media screen and (max-width: 768px) {
+
+footer.navbar.navbar-fixed-bottom {
+    display: none;
+}
+
+a.btn.alt {
+    display: none;
+}
+a.btn {
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

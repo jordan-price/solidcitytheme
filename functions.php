@@ -35,11 +35,14 @@ function register_theme_menus() {
 	register_nav_menus (
 		array(
 			'header-menu'  => __( 'Header Menu'),
+			'shop-menu' => __('Shop Menu'),
 			)
 		);
 }
 
 add_action( 'init', 'register_theme_menus');
+
+
 
 function create_widget ($name, $id, $description) {
 
@@ -72,3 +75,50 @@ add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
+
+add_action('sc_footer', 'sc_footer_cart_link');
+
+function sc_footer_cart_link() {
+	
+	global $woocommerce;
+
+	if ( (sizeof( $woocommerce->cart->cart_contents) > 0) && ( !is_cart() && !is_checkout() ) ) :
+		echo '<a class="btn alt" href="' . $woocommerce->cart->get_cart_url() . '" title="' . __( 'Checkout' ) . '">' . __( 'Cart' ) . '</a>';
+		echo '<a class="btn" href="' . $woocommerce->cart->get_checkout_url() . '" title="' . __( 'Checkout' ) . '">' . __( 'Checkout' ) . '</a>';
+	endif;
+
+}
+
+
+function sc_custom_billing_fields( $fields = array() ) {
+
+unset( $fields['billing_company']);
+
+return $fields;
+
+}
+
+add_filter('woocommerce_billing_fields', 'sc_custom_billing_fields' );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

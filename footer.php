@@ -1,7 +1,11 @@
-
-<footer class="container">
-  <!-- <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?></p> -->
+<footer class="navbar navbar-fixed-bottom">
+	<div class="container">
+		<div class="text-right">
+ 		<?php do_action('sc_footer'); ?>
+ 	</div>
+</div>
 </footer>
+
 <?php wp_footer(); ?>
 </body>
 </html>

@@ -14,7 +14,7 @@
 
         <?php 
           $args = array (
-            'menu' => 'header-menu',
+            'menu' => 'shop-menu',
             'menu_class' => 'nav navbar-nav navbar-right header-menu',
             'container' => 'false',
             );

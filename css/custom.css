@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 .admin-bar .navbar-fixed-top {
 	margin-top: 30px;
 }
@@ -236,6 +241,15 @@ a.get-started-call.btn.btn-default {
     padding: 0px;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
 /* Ninja Froms*/
 
 .profile_pass-wrap input, .text-wrap.label-above input, .text-wrap.label-below input, .text-wrap.label-inside input, .textarea-wrap.label-above textarea, .textarea-wrap.label-below textarea, .textarea-wrap.label-inside textarea, .list-dropdown-wrap.label-above select, .list-dropdown-wrap.label-below select {
@@ -247,4 +261,8 @@ a.get-started-call.btn.btn-default {
 
 textarea#ninja_forms_field_196 {
     width: 100%;
+}
+
+.ninja-forms-required-items {
+    display: none;
 }
